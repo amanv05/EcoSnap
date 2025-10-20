@@ -1,6 +1,6 @@
 import { type Request, type Response } from "express"
 import z from "zod";
-import { userModel } from "../Models/user.js";
+import { userModel } from "../models/userData.js";
 import bcrypt from "bcrypt"
 import jwt from "jsonwebtoken"
 import dotenv from "dotenv";
