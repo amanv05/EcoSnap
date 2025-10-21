@@ -8,4 +8,6 @@ const userSchema = new mongoose.Schema({
     points: { type: Number, default: 0 }
 });
 
+userSchema.index({points: -1});
+
  export const userModel = mongoose.model("User", userSchema);

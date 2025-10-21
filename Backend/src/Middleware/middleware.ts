@@ -33,6 +33,6 @@ try {
         message: "Internal server error",
     })
 }
-}
+};
 
 export default middleware

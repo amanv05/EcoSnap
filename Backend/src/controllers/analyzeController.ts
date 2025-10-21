@@ -65,6 +65,6 @@ const analyzeImage = async (req: Request, res: Response) => {
         message: "Internal server error",
     });
 }
-}
+};
 
 export default analyzeImage;

@@ -1,6 +1,6 @@
 import { Router } from "express";
-import analyzeImage from "../controllers/analyzeController.js";
 import { upload } from "../middleware/upload.js";
+import analyzeImage from "../controllers/analyzeController.js";
 import middleware from "../middleware/middleware.js";
 const analyzeRouter =  Router();
 
